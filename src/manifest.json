@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "C2v.store Order Tool",
   "short_name": "C2v.store Order Tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "C2v.store - Order Tool",
   "icons": {
     "16": "app/assets/icons/icon_16_active.png",

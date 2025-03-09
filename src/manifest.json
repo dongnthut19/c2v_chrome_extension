@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "C2v.store Order Tool",
-  "short_name": "C2v.store Order Tool",
-  "version": "1.0.3",
-  "description": "C2v.store - Order Tool",
+  "name": "C2v.vn Order Tool",
+  "short_name": "C2v.vn Order Tool",
+  "version": "1.0.4",
+  "description": "C2v.vn - Order Tool",
   "icons": {
     "16": "app/assets/icons/icon_16_active.png",
     "48": "app/assets/icons/icon_48_active.png",
@@ -11,9 +11,9 @@
   },
   "action": {
     "default_icon": "app/assets/icons/icon_16_active.png",
-    "default_title": "c2v.store"
+    "default_title": "c2v.vn"
   },
-  "author": "c2v.store.",
+  "author": "c2v.vn.",
   "background": {
     "service_worker": "app/assets/js/service-worker.js",
     "type": "module"
@@ -106,7 +106,7 @@
     },
     {
       "matches": [
-        "*://*.c2v.store/gio-hang"
+        "*://*.c2v.vn/gio-hang"
       ],
       "css": [
         "app/assets/js/toast/jquery.toast.css",
@@ -126,7 +126,7 @@
     "https://*.world.taobao.com/*",
     "https://*.item.taobao.com/*",
     "https://*.tmall.com/*",
-    "https://*.c2v.store/*",
+    "https://*.c2v.vn/*",
     "https://*.detail.1688.com/*"
   ],
   "web_accessible_resources": [
